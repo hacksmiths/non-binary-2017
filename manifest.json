@@ -1,5 +1,8 @@
 {
- "name": "App",
+  "background_color": "#d6b3d5",
+  "name": "Non Binary in Tech",
+  "short_name": "NBiT",
+  "display": "standalone",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
@@ -37,5 +40,6 @@
    "type": "image\/png",
    "density": "4.0"
   }
- ]
+],
+ "orientation": "portrait"
 }
