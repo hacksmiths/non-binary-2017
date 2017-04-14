@@ -2785,6 +2785,7 @@
 
 			#header h1 a {
 				border: 0;
+        font-family:'karma_future';
 			}
 
 		#header nav {
@@ -3085,7 +3086,7 @@
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			opacity: 1;
-			margin: 0 0 1.3em 0;
+			margin: 0 0 1em 0;
 		}
 
 			#banner .logo .icon {
