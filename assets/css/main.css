@@ -1722,8 +1722,9 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-		color: #ffffff;
+		color: #404041;
 		text-decoration: none;
+    font-family: 'karmasuture' ;
 	}
 
 		a:hover {
@@ -1735,7 +1736,7 @@
 			text-decoration: none;
 			border-bottom: 0;
 			display: block;
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: 'karmasuture', Raleway, Helvetica, sans-serif;
 
 			font-size: 0.8em;
 			font-weight: 700;
@@ -2684,7 +2685,7 @@
 
 		.features article {
 			padding: 1.75em 1.75em 0.1em 1.75em ;
-			background-color: #353849;
+			background-color: #b7bade;
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
@@ -2755,7 +2756,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: rgba(53, 56, 73, 0.95);
+		background-color: rgba(183, 186, 222, 0.8);
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -3009,7 +3010,7 @@
 					border-radius: 5px;
 					border: 0;
 					display: block;
-					font-family: Raleway, Helvetica, sans-serif;
+          font-family: 'karmasuture', Raleway, Helvetica, sans-serif;
 					font-size: 0.8em;
 					font-weight: 200;
 					letter-spacing: 0.1em;
@@ -3657,13 +3658,14 @@
 
 			#footer .inner .copyright li {
 				border-left: solid 2px rgba(255, 255, 255, 0.125);
-				color: rgba(0, 0, 0, 0.35);
+				color: #404041;
 				display: inline-block;
 				font-size: 0.9em;
 				line-height: 1;
 				margin-left: 1em;
 				padding: 0;
 				padding-left: 1em;
+        font-family: 'karmasuture';
 			}
 
 				#footer .inner .copyright li:first-child {
