@@ -1,5 +1,6 @@
 {
   "background_color": "#d6b3d5",
+  "theme_color": "#d6b3d5",
   "name": "Non Binary in Tech",
   "short_name": "NBiT",
   "display": "standalone",
