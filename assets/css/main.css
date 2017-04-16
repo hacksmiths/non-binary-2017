@@ -1813,8 +1813,6 @@
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			padding-bottom: 1em;
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 			font-family:'karmasuture', Helvetica, sans-serif;
 
 		}
@@ -3089,16 +3087,10 @@
 			margin: 0 0 1em 0;
 		}
 
-			#banner .logo .icon {
-				border-radius: 100%;
-				border: solid 2px rgba(255, 255, 255, 0.125);
-				cursor: default;
-				display: inline-block;
-				font-size: 2em;
-				height: 5em;
-				line-height: 2.25em;
-				text-align: center;
-				width: 5em;
+			#banner .logo img {
+				max-width: 100%;
+				margin-top: 3em;
+				margin-bottom: 3em;
 			}
 
 		#banner h2 {
@@ -3119,9 +3111,8 @@
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 			font-size: 3em;
-			margin-bottom: 0.8em;
+			margin-bottom: 0;
 			padding-bottom: 0.4em;
 			font-family: 'karma_future';
 			text-transform: none;
@@ -3158,10 +3149,17 @@
 			letter-spacing: 0.1em;
 			line-height: 1;
 			text-transform: none;
+			margin-top: 0;
+			margin-bottom: 1em;
 		}
 
 		#banner .tagline {
 			font-size: 1.8em;
+		}
+
+		#banner .bannerlinks {
+			display: block;
+			margin-top: 4em;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3268,7 +3266,6 @@
 		}
 
 		#wrapper > header p {
-			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
@@ -3766,3 +3763,30 @@
 		}
 
 	}
+
+
+#partners ul {
+	padding: 0;
+	margin-top: -1em;
+}
+#partners ul li {
+	display: inline-block;
+	margin-top: 1em;
+}
+#partners ul li a {
+	border: none;
+}
+#partners ul li img {
+	height: 6rem;
+	margin-right: 1em;
+}
+#partners ul li img.padding {
+	padding: 0.75em 0;
+}
+#code ul {
+	padding: 0;
+}
+#code ul li {
+	list-style-type: none;
+	margin-bottom: 0.5em;
+}
