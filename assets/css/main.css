@@ -3777,11 +3777,14 @@
 	border: none;
 }
 #partners ul li img {
-	height: 6rem;
+	height: 5rem;
 	margin-right: 1em;
 }
 #partners ul li img.padding {
 	padding: 0.75em 0;
+}
+#partners ul li img.xpadding {
+	padding: 1.5em 0;
 }
 #code ul {
 	padding: 0;
