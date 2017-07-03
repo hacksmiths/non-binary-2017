@@ -3,6 +3,7 @@
   "theme_color": "#d6b3d5",
   "name": "Non Binary in Tech",
   "short_name": "NBiT",
+  "start_url": "https://nonbinary.tech",
   "display": "standalone",
  "icons": [
   {
