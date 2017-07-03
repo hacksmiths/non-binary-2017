@@ -36,6 +36,19 @@
 <meta name="theme-color" content="#d6b3d5">
 
 <meta property="og:image" content="https://github.com/uveavanto/NBiT-Web/raw/master/images/previewimg.png">
+
+<script>
+if (navigator.serviceWorker.controller) {
+  console.log('[PWA Builder] active service worker found, no need to register')
+} else {
+  //Register the ServiceWorker
+  navigator.serviceWorker.register('sw.js', {
+    scope: './'
+  }).then(function(reg) {
+    console.log('Service worker has been registered for scope:'+ reg.scope);
+  });
+}
+</script>
 	</head>
 
 
@@ -110,6 +123,13 @@
 										<h2 class="major">Speakers</h2>
                     <p>NBiT will be made up of a wide range of speakers, covering a broad spectrum of topics around technology and gender.
                      <section class="features">
+                       <article>
+                        <a href="https://twitter.com/annatuon" class="image"><img src="https://pbs.twimg.com/profile_images/854627504010784770/S0M9sCIB_400x400.jpg" alt="" /></a>
+                        <h3 class="major">Anna Tuononen</h3>
+                        <h4>They/Them.</h4>
+                        <p>Currently looking into social phenomena in cities, Anna Tuononen is beginning a PhD in spatial analysis at The Bartlett UCL that builds on their research on networked immigration patterns in London, also presented at the 8th Space Syntax Symposium Lisbon. Their long-term fascination is with accessible online communication technologies and their effects on the spatial. Their political subjectivity is shaped while growing in Nordic socialism, and after, in the pressures of several relocations in Europe: specifically the different social norms in which localised forms of femmephobia, cis- and heteronormativity and the positioning of immigrants are embedded. An inspiration to their talk is a two years’ social transformation to their gender performance and relationship dynamics.</p>
+                         <h4>Queer togetherness on the Internet when we are spatially on our own <h4>
+                      </article>
                       <article>
 												<a href="https://twitter.com/imariarit" class="image"><img src="images/speakers/a.png" alt="" /></a>
 												<h3 class="major">Arielle Vaniderstine</h3>
