@@ -3793,3 +3793,8 @@
 	list-style-type: none;
 	margin-bottom: 0.5em;
 }
+
+
+[id="schedule"] h2 + h3 {
+    font-size: 16px;
+}
