@@ -1,0 +1,35 @@
+.bg-curves {
+background-image: url(https://cdn.glitch.com/b2dcc3e6-6a9f-44f0-acb7-69dcb1fce8dd%2Ffellas.png?1525808962026);
+}
+
+.pragati-narrow {
+  font-family: 'Pragati Narrow', sans-serif;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-nops {
+background-image: url("https://cdn.glitch.com/b2dcc3e6-6a9f-44f0-acb7-69dcb1fce8dd%2Fnops.png?1525809286927");
+}
+
+.bg-nops-pink {
+background-image: url("https://cdn.glitch.com/b2dcc3e6-6a9f-44f0-acb7-69dcb1fce8dd%2Fnops_pink.png?1525816920730");
+}
+
+.h-60 {
+  height: 60%;
+}
+
+
+  .f-giant {
+  font-size: 8rem;
+}
+
+@media screen and (min-width:60em) {
+  .f-giant-l {
+  font-size: 8rem;
+}
+  
+}
