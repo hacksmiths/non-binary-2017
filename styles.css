@@ -1,35 +1,157 @@
-.bg-curves {
-background-image: url(https://cdn.glitch.com/b2dcc3e6-6a9f-44f0-acb7-69dcb1fce8dd%2Ffellas.png?1525808962026);
+@font-face {
+    font-family:'MF Bespoke';
+    src: url('https://cdn.glitch.com/07085c70-220e-4ed8-bbdd-52f6f25522a8%2FBespoke.eot?1529779040964');
+    src: url('https://cdn.glitch.com/07085c70-220e-4ed8-bbdd-52f6f25522a8%2FBespoke.eot?1529779040964?#iefix') format('embedded-opentype'),
+         url('https://cdn.glitch.com/07085c70-220e-4ed8-bbdd-52f6f25522a8%2FBespoke.woff?1529779040806') format('woff'),
+         url('https://cdn.glitch.com/07085c70-220e-4ed8-bbdd-52f6f25522a8%2FBespoke.ttf?1529779040600')  format('truetype'),
+         url('https://cdn.glitch.com/07085c70-220e-4ed8-bbdd-52f6f25522a8%2FBespoke.svg?1529779051824') format('svg'); 
+  }
+
+  .mf-bespoke {
+  font-family: 'MF Bespoke', sans-serif;
+  }
+
+  .pragati-narrow {
+    font-family: 'Pragati Narrow', sans-serif;
+  }
+
+.soft-gray {
+  color: #C4C4C4;
 }
 
-.pragati-narrow {
-  font-family: 'Pragati Narrow', sans-serif;
+.bg-soft-gray {
+  background-color: #C4C4C4;
 }
 
-.poppins {
-  font-family: 'Poppins', sans-serif;
+.b--soft-gray {
+  border-color: #C4C4C4;
 }
 
-.bg-nops {
-background-image: url("https://cdn.glitch.com/b2dcc3e6-6a9f-44f0-acb7-69dcb1fce8dd%2Fnops.png?1525809286927");
+.hover-bg-soft-gray:hover {
+  background-color: #C4C4C4;
 }
 
-.bg-nops-pink {
-background-image: url("https://cdn.glitch.com/b2dcc3e6-6a9f-44f0-acb7-69dcb1fce8dd%2Fnops_pink.png?1525816920730");
+.granny-pink {
+  color: #FFB5BB;
 }
 
-.h-60 {
-  height: 60%;
+.bg-granny-pink {
+  background-color: #FFB5BB;
+}
+
+.bg-granny-pink-o-70 {
+  background-color: #ffb5bbB3;
+}
+
+.hover-bg-granny-pink:hover {
+  background-color: #FFB5BB;
+}
+
+.soft-pink {
+  color: #F694FF;
+}
+
+.bg-soft-pink {
+  background-color: #F694FF;
+}
+
+.soft-purple {
+  color: #BB6BD9;
+}
+
+.hover-soft-purple:hover {
+  color: #BB6BD9;
+}
+
+.bg-soft-purple {
+  background-color: #BB6BD9;
+}
+
+.hover-bg-soft-purple:hover {
+  background-color: #BB6BD9;
+}
+
+.bg-top-left {
+  background-repeat: no-repeat; background-position: top left;
+}
+
+.cross {
+  background-position-x: 2rem;
+}
+
+.ts-black {
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: .1rem;
+  -webkit-text-stroke-color: black;
+}
+
+.b--folded-corner-soft-pink {
+  border-image: url('https://cdn.glitch.com/00a78354-69d5-4aca-b1be-250125c87d49%2Fborder-pink.svg?1529878134394') 60 stretch;
+  border-width: 4rem;
+  border-style: solid;
+}
+
+.b--folded-corner-granny-pink {
+  border-image: url('https://cdn.glitch.com/00a78354-69d5-4aca-b1be-250125c87d49%2Fborder-granny-pink.svg?1529968520035') 60 stretch;
+  border-width: 4rem;
+  border-style: solid;
+}
+
+.b--folded-corner-soft-pink-white {
+  border-image: url('https://cdn.glitch.com/00a78354-69d5-4aca-b1be-250125c87d49%2Fborder-pink-white.svg?1529970352195') 60 stretch;
+  border-width: 4rem;
+  border-style: solid;
+}
+
+.soft-trans {
+  transition: 2s linear;
+}
+
+.ts-black {
+text-stroke: 0.5rem black;
 }
 
 
-  .f-giant {
-  font-size: 8rem;
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeout {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+.fadein{
+    animation-name: fadein;
+    animation-duration: 1s;
+}
+
+.fadeout {
+    animation-name: fadeout;
+    animation-duration: 1s;
+}
+
+
+@keyframes upanddown {
+    0% {margin-top: -2rem;}
+    50% {margin-top: 1rem;}
+  100% {margin-top: 2rem;}
+}
+
+.upanddown {
+  animation-name: upanddown;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 @media screen and (min-width:60em) {
-  .f-giant-l {
-  font-size: 8rem;
+  .h2-l {
+    height: 2rem;
+  }
 }
-  
+
+.dc {
+ display: contents; 
 }
