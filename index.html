@@ -1,51 +1,239 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Non Binary in Tech 2018</title>
+    <title>Non-Binary in Tech 2018</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Pragati+Narrow|Poppins:900,900i" rel="stylesheet">
-    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Pragati+Narrow:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
   </head>
-  <body class="w-100 lh-copy pa0 ma0 vh-100 pragati-narrow bg-light-yellow dark-pink b--dark-pink center">
-    
-    <div class="fixed w-100 vh-100 bg-nops cover"></div>
-                
-    <section class="f-headline-l f1 poppins z-1">
-      <p class="pa2 ma0 fixed ba ma3 bg-white">Non</p>
-      <p class="pa2 ma0 fixed right-0 ba ma3 bg-white">Binary</p> 
+
+  <body class="pragati-narrow f3-l f4 lh-copy">
+    <section class="fixed w-100 pa3 pb0 top-0 left-0 z-999 items-center flex justify-between">
+        <a href="#"><img class="mw4-ns mw3 w-100 ma0 pa0 db" src="https://cdn.glitch.com/00a78354-69d5-4aca-b1be-250125c87d49%2Fnbit_logo.svg?1529972330060" alt="The NBiT logo. It is rectangular and mainly black and white. A black slanted shape is meeting a white shape. It also contains the letters N on black, and BiT on white."/></a>
+      <div class="js-menu bg-white pointer bg-animate hover-bg-soft-gray ba bw2 pa3-l pa2">Menu</div>
     </section>
-    
-    <section class="f-headline-l f1 poppins z-1">
-      <p class="pa2 ma0 fixed bottom-0 ba ma3 bg-white">In</p>
-      <p class="pa2 ma0 fixed bottom-0 right-0 ba ma3 bg-white">Tech</p> 
-    </section>
- 
-    <section class="w-80 center vh-100 dt z-9 relative tc">
-      <div class="dtc vh-100 v-mid">
-        <div class="h-60 ba pa4-ns pa2 b--white bg-dark-pink">
-        <div class="ba pa3 f2-l f3-m f5 dark-gray ma0 mw6-ns mw5 bg-light-yellow">
-          <p class="ma0"><span class="b">NBiT 2018:</span> A day of talks celebrating non binary people in tech!<br>
-            <span class="b">28th July 2018</span><br>
-            Goldsmiths, University of London</p>
-          <p class="tc">
-            <a href="https://t.co/GT2zP6wUT3" class="link dark-pink hover-dark-gray ba ph2 bg-white bg-animate hover-bg-light-silver"> ▶ Subscribe to Updates</a><br>
-            <span class="f2-ns f3 ma0 mt3 db"><a href="https://www.twitter.com/nonbinarytech" class="f3 link hover-dark-gray dark-pink">Follow us at @nonbinarytech!</a></span>
-          </p>
-          <!-- CALL FOR PAPERS HERE PLS :)
-            <a href="" class="mv3 link dark-pink hover-dark-gray ba ph2 bg-white bg-animate hover-bg-light-silver">▶ Call for Papers</a> 
-          -->
-          </div>
-        </div>
+
+    <!-- NAVIGATION -->
+    <nav class="dn js-nav fixed right-0 w-100 mw6-ns z-999 fadeout">
+      <div class="js-nav-close h3 absolute w-100"></div>
+      <div class="ma3-l ma2 b--folded-corner-soft-pink-white">
+         <ul class="pl0 ma0 w-100 bg-soft-pink list f2 tc">
+            <a href="#about" class="link js-link"><li class="bg-black white center w-100 hover-bg-soft-purple bg-animate hover-black pointer">About NBiT</li></a>
+            <a href="#faq" class="link js-link"><li class="bg-black white mv3 w-100 center hover-bg-soft-purple bg-animate hover-black pointer">FAQ</li></a>
+            <a href="#schedule" class="link js-link"><li class="bg-black white mv3 w-100  hover-bg-soft-purple bg-animate hover-black pointer">Schedule</li></a>
+            <a href="#speakers" class="link js-link"><li class="bg-black white mv3 w-100 center hover-bg-soft-purple bg-animate hover-black pointer">Speakers</li></a>
+            <a href="#contact" class="link js-link"><li class="bg-black white ma0 w-100 center hover-bg-granny-pink bg-animate hover-black pointer">Contact</li></a>
+        </ul>
+        <div class="pointer js-nav-close h3 absolute left-0 w-100 bg-left cross" style="background-image: url('https://cdn.glitch.com/00a78354-69d5-4aca-b1be-250125c87d49%2Fcross.svg?1530225428902')"></div>
+      </div>
+    </nav>
+    <div class="dn js-overlay fadeout js-nav-close top-0 left-0 fixed bg-white-30 z-4 w-100 vh-100"></div>
+
+    <!-- pink in front -->
+    <header class="fixed bottom-2-l bottom-0 w-100 z-3">
+      <div class="relative z-3 bg-soft-pink h4-ns h3 bl br bt bw2 b--white flex items-center tc mw8-ns w-100 center">
+        <img class="mw4 ml4 mr2 h-75 h-50-ns" src="https://cdn.glitch.com/00a78354-69d5-4aca-b1be-250125c87d49%2Fnbit_title.png?1530221215231" alt="A simplified NBiT logo. It is white text with a black outline.">
+
+          <h2 class="mh3-l mh1 w-30-l w-20-m w-30 f4-l f5 pa0 ma0 db-ns dn">A day of talks celebrating non-binary people in tech!</h2>
+
+        <a class="link black dc" href="https://www.eventbrite.co.uk/e/non-binary-in-tech-2018-tickets-47815980886"><div class="bg-granny-pink hover-bg-soft-purple bg-animate dt pa2-ns pa0 ph2 mw4 ba bw2 b--white ma2 w-20-l w-30-m">
+          <h3 class="dtc v-mid f6 f5-m f4-l pointer">Get Tickets!<br>28th July 2018</h3>
+        </div></a>
+
+      </div>
+    </header>
+
+    <!-- pink behind -->
+    <div class="fixed w-100 bottom-0 left-0 nl4 z-2">
+        <div class="mw8 center relative bg-soft-pink h5 bl br bt bw2 b--white"></div>
+    </div>
+
+    <main class="z-2 relative mw7 center">
+      <div class="absolute z-3 w-100 tc mt6">
+         <p class="ma3 pa0 f3-ns f5 tc pa2 bg-white ba bw2 mw5 center">With &#x1F496; from <a href="https://github.com" class="b link hover-soft-purple black">GitHub</a>!</p>
+        <img class="upanddown" src="https://cdn.glitch.com/00a78354-69d5-4aca-b1be-250125c87d49%2Farrow_down.svg?1530451888474" />
       </div>
 
-    </section>
+      <div class="vh-50 w-100 dib"></div>
 
-    <section class="bg-blue w-80 center relative">
+      <div class="z-1 absolute right-0 nt6 nr6-l tc f3 b bg-granny-pink h5 mw6-ns w-80 ba bw2 b--white cover bg-center" style="background-image: url(&#39;https://cdn.glitch.com/07085c70-220e-4ed8-bbdd-52f6f25522a8%2Fcrystal_modded.png?1529779073592&#39;);/* display: none; */">
+        </div>
 
-    </section>
+
+      <!-- ABOUT NBIT -->
+      <section class="relative z-2 bg-white pa4-l pa3 ba bw2 b--black mv5">
+        <h3 class="mf-bespoke tc mv3 f2-l f3"><a name="about">About NBiT</a></h3>
+        <p class="ma0">Non-Binary in Tech is a free one-day event. It focuses on highlighting the amazing work of people who identify partly or solely outside of the gender binary in the technology industry—this includes designers, developers, artists and engineers (and plenty more awesome folks!).</p>
+        <p>NBiT aims to be an accessible event that is comfortable for everyone to attend. It will feature talks, panels and networking. The event is open to everyone! If that sounds interesting to you or you think you’d benefit from tagging along, we would love to see you!</p>
+
+        <div class="ba bw2 pa3 bg-granny-pink">
+        <h4 class="mf-bespoke tc"><a name="venue">Venue</a></h4>
+        <p>The venue for the event is the lower floor of the <span class="b">Ian Gulland Lecture Theatre in Goldsmiths, University of London</span>. The building is fully wheelchair accessible and has a gender neutral bathroom. The closest train stations are <span class="b">New Cross Gate and New Cross</span>, we do not recommend bringing a car as it is hard to find parking in the area.</p>
+        </div>
+      </section>
+
+      <section class="bg-soft-gray pa4-l pa3 ba bw2 b--white mv5">
+        <h3 class="mf-bespoke tc f2-l f3 mv3"><a name="sponsors">Sponsors</a></h3>
+        <p class="tc">
+          NBiT would not be possible with the generous support by these sponsors!
+        </p>
+        <figure class="tc center flex items-center flex-wrap justify-around">
+          <a href="https://github.com"><img src="https://cdn.glitch.com/00a78354-69d5-4aca-b1be-250125c87d49%2FGitHub_Logo.png?1531840696048" class="mw5-ns w-90" /></a>
+          <a href="https://samsunginter.net/"><img src="https://cdn.glitch.com/00a78354-69d5-4aca-b1be-250125c87d49%2Fsamsunginternetlogo.png?1531840947215" class="mw5-ns w-90" /></a>
+        </figure>
+      </section>
+
+       <!-- SCHEDULE -->
+      <section class="bg-white pa4-l pa3 ba bw2 b--black mv5">
+        <h3 class="mf-bespoke tc f2-l f3 mv3"><a name="schedule">Schedule</a></h3>
+        <p class="tc">Will be released soon!</p>
+       <!--
+        <table cellspacing="0" class="center w-90 mv3">
+          <tr class="bg-black white bb bw2 hover-bg-soft-purple bg-animate">
+            <td class="pa3-l pa2 w-30 bb bw2 b--white">9:00&ndash;10:00</td>
+            <td class="pa3-l pa2 bb bw2 b--white">A Fabulous Activity!</td>
+          </tr>
+        </table>
+        -->
+      </section>
+
+       <!-- FAQ -->
+      <section class="bg-soft-gray pa4-l pa3 ba bw2 b--white mv5">
+        <h3 class="mf-bespoke tc f2-l f3 mv3"><a name="faq">FAQ</a></h3>
+        <ul class="order-2 list pl0 center w-100 w-90-l">
+          <li class="mb3">
+            <details class="bg-granny-pink ba bw2 pa2 hover-bg-white bg-animate pointer">
+              <summary class="b tc">What does &quot;Non-Binary&quot; mean?</summary>
+              Non-binary describes something is not binary—it is neither of two available options. In our case, it means that we are neither men nor women. Some non-binary people feel like they sit somewhere in the middle between male and female, while others are completely outside this spectrum. Here are some external resources to educate yourself further!
+            </details>
+          </li>
+
+         <li class="mb3">
+            <details class="bg-granny-pink ba bw2 pa2 hover-bg-white bg-animate pointer">
+              <summary class="b tc">I’m not non-binary myself, could we still hang out?</summary>
+              This event is open to all. Regardless of gender identity, feel free to tag along, especially if you haven’t been to a non-binary-run event before! Please make sure to read our <a href="https://nbit-code-of-conduct.glitch.me/" class="link black b hover-soft-purple">Code of Conduct</a> to know what is and is not cool to do during the event. See you in July!
+            </details>
+          </li>
+
+           <li class="mb3">
+            <details class="bg-granny-pink ba bw2 pa2 hover-bg-white bg-animate pointer">
+              <summary class="b tc">How much does a ticket cost?</summary>
+              All tickets are free. This event is for the community, by the community. Be the first to know when tickets come out by signing up to our <a href="#contact" class="link black b hover-soft-purple">mailing list</a>, following us on <a href="https://twitter.com/nonbinarytech" class="link black b hover-soft-purple">Twitter</a> or leaving a like on <a href="https://facebook.com/nonbinarytech" class="link black b hover-soft-purple">Facebook</a>. Or all three of them if you feel fancy!
+            </details>
+          </li>
+
+           <li class="mb3">
+            <details class="bg-granny-pink ba bw2 pa2 hover-bg-white bg-animate pointer">
+              <summary class="b tc">Do you offer travel scholarships?</summary>
+              We sure do! If you cannot comfortably afford to attend NBiT, you can go ahead and <a href="https://docs.google.com/forms/d/e/1FAIpQLSfynYFOOJjHKZwaO11Fd82Kho0weTbx5n-rBft6lQyFmULj2w/viewform" class="link black b hover-soft-purple">apply for a travel scholarship here</a>.
+            </details>
+          </li>
+
+           <li class="mb3">
+            <details class="bg-granny-pink ba bw2 pa2 hover-bg-white bg-animate pointer">
+              <summary class="b tc">Is there a Code of Conduct?</summary>
+              Absolutely! Feel free to <a href="https://nbit-code-of-conduct.glitch.me/" class="link black b hover-soft-purple">check it out here</a>. To attend our event, you have to agree to it. During the event, it will be enforced. The baseline is: Don’t make people uncomfortable. On the day you can always approach one of our volunteers to raise an issue or concern.
+            </details>
+          </li>
+
+           <li class="mb3">
+            <details class="bg-granny-pink ba bw2 pa2 hover-bg-white bg-animate pointer">
+              <summary class="b tc">I have an accessibility requirement that hasn’t been addressed yet!</summary>
+              Sure thing! Please <a href="mailto:nonbinaryintech@gmail.com" class="link black b hover-soft-purple">email us</a> to so we can make this event work for you.
+            </details>
+          </li>
+
+          <li class="mb3">
+            <details class="bg-granny-pink ba bw2 pa2 hover-bg-white bg-animate pointer">
+              <summary class="b tc">Could I and/or my company sponsor this event?</summary>
+              That’s awesome, thank you so much! Please <a href="mailto:nonbinaryintech@gmail.com" class="link black b hover-soft-purple">drop us a line</a> to get the ball rolling.
+            </details>
+          </li>
+
+          <li class="mb3">
+            <details class="bg-granny-pink ba bw2 pa2 hover-bg-white bg-animate pointer">
+              <summary class="b tc">I’ve got more burning questions for you!</summary>
+              <a href="https://twitter.com/nonbinarytech" class="link b black hover-soft-purple">Tweet us</a> short and sweet questions! Longer bits are best for our inbox,  <a href="mailto:nonbinaryintech@gmail.com" class="link black b hover-soft-purple">email away</a>! Please be patient&mdash;NbiT is entirely run by volunteers, so it might take a day or two to get back to you.
+            </details>
+          </li>
+        </ul>
+      </section>
+
+      <!-- SPEAKERS -->
+      <section class="bg-soft-gray pa4-l pa3 ba bw2 b--white mv5">
+        <h3 class="mf-bespoke tc f2-l f3 mv3"><a name="speakers">Speakers</a></h3>
+          <ul class="list pl0">
+              <li class="w-100 b--folded-corner-soft-pink mv4">
+              <div class="bg-soft-pink flex-l flex-wrap items-center">
+                <img src="https://cdn.glitch.com/07085c70-220e-4ed8-bbdd-52f6f25522a8%2Fcrystal_modded.png?1529779073592" alt="A glitched photo of a hand holding a single quartz crystal, in front of a leavy bush. The photo is mainly black and white, with some pink and apricot accents." class="ba bw2 b--white w-40-l w-90 db center pa0">
+                <article class="ml3-l ml0 w-100 w-50-l">
+                  <h4 class="tc ma0">Will be announced soon!</h4>
+                  <p class="ma0 "></p>
+                </article>
+              </div>
+            </li>
+          </ul>
+      </section>
+
+         <!-- CONTACT -->
+        <section class="bg-white pa4-l pa3 ba bw2 b--black mv4">
+          <!-- Begin MailChimp Signup Form -->
+          <h3 class="mf-bespoke tc f2-l f3 mv3"><a name="contact">Contact</a></h3>
+          <p class="tc">
+            Please feel free to contact us via email: <a class="link black b hover-soft-purple" href="mailto:nonbinaryintech@gmail.com">nonbinaryintech@gmail.com</a>!
+          </p>
+          <div id="mc_embed_signup" class="bg-granny-pink pa3 ba bw2 b--black">
+
+          <form action="https://tech.us18.list-manage.com/subscribe/post?u=707a8eafdd6b78ebf73ebab8e&amp;id=36328e6f55" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll" class="center tc mv4">
+              <h4 class="ma0">Subscribe to our Mailing List!</h4>
+              <p class="mt0 ">We will only send you updates about NBiT, never spam.</p>
+              <div class="mc-field-group flex flex-wrap items-center justify-between tc">
+                <label for="mce-EMAIL" class="b w-100">Your Email Address</label>
+                <input type="email" placeholder="Your Email Address" value="" name="EMAIL" class="required email bg-white ba bw2 pa3 ma0 w-100 w-70-l mb0-l mb3 hover-bg-soft-purple bg-animate" id="mce-EMAIL">
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button bg-black white pa3 b--black hover-black ba bw2 w-50 w-30-l bg-animate hover-bg-soft-purple center pointer">
+
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+
+               <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_6e2c5dfffc569f7ed34de63b6_17df14f001" tabindex="-1" value="">
+              </div>
+            </div>
+          </form>
+          </div>
+          <!--End mc_embed_signup-->
+        </section>
+
+      <footer class="bg-black white tc pa2">
+          <div class="flex flex-wrap justify-around ba bw2 b--white pa3 bg-soft-purple">
+            <a href="#contact" class="link black b hover-white w-30">Contact Us</a>
+            <a name="codeofconduct"><a href="https://nbit-code-of-conduct.glitch.me/" class="link black b hover-white w-30">Code of Conduct</a></a>
+            <a href="#venue" class="link black b hover-white w-30">Venue</a>
+          </div>
+          <p class="f5">NBiT is organised with &#x2764; by <a class="link white hover-soft-purple" href="https://twitter.com/uveavanto">@uveavanto</a>, <a class="link white hover-soft-purple" href="https://twitter.com/d0zn_">@d0zn_</a>, <a class="link white hover-soft-purple" href="https://twitter.com/cam_wildridge">@cam_wildridge</a>, <a class="link white hover-soft-purple" href="https://twitter.com/BecksTSimpson">@BecksTSimpson</a>, <a class="link white hover-soft-purple" href="https://twitter.com/LittleFXRadio">@LittleFXRadio</a>. Design by <a class="link white hover-soft-purple" href="https://twitter.com/niceotherwise">@niceotherwise</a>.</p>
+      </footer>
+      <div class="vh-25 w-100 dib"></div>
+    </main>
+
+    <!-- LAYOUT BITS / DECORATION -->
+    <!-- CIRCLE -->
+    <div class="z-1 vh-100 w-100 fixed top-0 left-0">
+      <div class="center vh-100 w-90 bg-center cover bl br bw2 b--white" style="background-image: url('https://cdn.glitch.com/07085c70-220e-4ed8-bbdd-52f6f25522a8%2Fcircle_modded.png?1529779073423')"></div>
+    </div>
+
+    <!-- BLOB -->
+    <div class="z-0 w-100 vh-100 fixed top-0 left-0 bg-top cover" style="background-image: url('https://cdn.glitch.com/00a78354-69d5-4aca-b1be-250125c87d49%2F2purple_blobs.png?1529843273884')"></div>
+    <!-- NBIT TYPE -->
+    <div class="z-0 w-100 vh-100 fixed top-0 left-0" style="background-image: url('https://cdn.glitch.com/07085c70-220e-4ed8-bbdd-52f6f25522a8%2Fnbit_narrow.svg?1529793309674'); background-size: 15%;"></div>
+    <!-- LINE -->
+    <div class="fixed bottom-0 left-0 bg-black db-l dn h2 w-100 z-999"></div>
   </body>
 </html>
