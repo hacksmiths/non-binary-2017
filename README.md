@@ -1,5 +1,5 @@
-"Save the Date" Website for NBit 2018
+Website for NBiT 2018
 
 Credits:
-	tachyons (http://tachyons.io/)
+	Designed in Figma, developed in Glitch, using Tachyons (http://tachyons.io/)!
 		
